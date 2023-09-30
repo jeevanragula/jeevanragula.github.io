@@ -1,0 +1,41 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.Tech in Electronics and Communication Engineering
+  icon: fa-graduation-cap
+  timeframe: 2003-2007
+  institution:
+    name: Jawaharlal Nehru Technological University, Hyderabad
+    url: "#"
+  grade: #(optional)
+    scale: CGPA
+    achieved: 8.6
+    outOf: 10
+- name: Intermediate
+  icon: fa-university
+  timeframe: 2001-2003
+  institution:
+    name: Board of Intermediate Education, Andhra Pradesh
+    url: "#"
+  grade: #(optional)
+    scale: GPA
+    achieved: 9.7
+    outOf: 10
+- name: Secondary School Certificate
+  icon: fa-school
+  timeframe: 2000-2001
+  institution:
+    name: Board of Secondary School Education, Andhra Pradesh
+  grade: #(optional)
+    scale: GPA
+    achieved: 8.9
+    outOf: 10

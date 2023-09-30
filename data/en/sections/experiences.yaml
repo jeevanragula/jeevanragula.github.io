@@ -1,0 +1,86 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Zscaler India Pvt Ltd.
+    url: "https://www.zscaler.com/"
+    location: Hyderabad, India
+    # company overview
+    overview: Zscaler is a cloud security company, with headquarters in San Jose, California. The company offers enterprise cloud security services.
+  positions:
+  - designation: Principal Software Engineer
+    start: Apr 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - As architect for IaC and container security products, I provided visionary leadership in product architecture, aligning technical strategies with organizational goals.    
+    - Architected solutions for scalability, optimizing performance to secure infrastructure and containers efficiently at any scale.
+
+  - designation: Senior Staff Software Engineer
+    start: Aug 2021
+    end: Mar 2022
+    responsibilities:
+    - Facilitated cross-functional teamwork, uniting experts in development, security, and DevOps, and integrating cutting-edge tech (e.g., Kafka, CI/CD) into our security solutions.    
+    - Integrated state-of-the-art security technologies, such as threat detection and compliance checks, ensuring our products remained at the forefront of security practices.
+
+- company:
+    name: McAfee India Pvt Ltd.
+    url: "https://www.mcafee.com/"
+    location: Hyderabad, India
+    overview: McAfee Corp is security software company which builts personal and enterprise security products.
+  positions:
+  - designation: Senior Staff Engineer
+    start: Aug 2019
+    end: Aug 2021
+    responsibilities:
+    - Leading Cloud Connector team of a CASB product
+    - Developing new features on Cloud Security prouduct.    
+
+- company:
+    name: IVY Software Development Services Pvt Ltd.
+    url: "https://ivy.global/"
+    location: Hyderabad, India
+    overview: One of the largest technology providers for Entain, one of the world’s biggest gaming groups.
+  positions:
+  - designation: Lead - Software Development
+    start: Jul 2010
+    end: Jul 2019
+    responsibilities:
+    - Designed and built a PCI DSS Certified payment gateway for Entain(Former GVC group) using Spring, Apache CXF, Tomcat and Oracle.
+    - Integrated around 20 Payment methods like Credit Cards, Wallets and Bank transfer options with service providers like Kalixa and Worldpay using REST and SOAP based APIs.
+    - Migrated millions of payment transactions and instruments to target platform of Entain.
+
+- company:
+    name: HP
+    url: "https://www.hpe.com/"
+    location: Bengaluru, India
+    overview: HP India Software Operation Private Limited, is a subsidiary of Hewlett-Packard Enterprise specializing in software development and IT services.
+  positions:
+  - designation: Software Engineer
+    start: Nov 2009
+    end: Jul 2010
+    responsibilities:
+    - Worked on Serviceguard Manager which is a graphical user interface that provides configuration, monitoring and administration of Serviceguard, Serviceguard Extension for RAC, Metrocluster, and Continentalclusters.
+    - Developing new features including both back-end and front-end parts using Java and JavaScript technologies.    
+
+- company:
+    name: IBM
+    url: "https://www.ibm.com/"
+    location: Bengaluru, India
+    overview: International Business Machines Corporation (IBM) is a multinational technology company from the United States that makes and sells software, computer hardware, infrastructure services, and consulting services.
+  positions:
+  - designation: Application Developer
+    start: Aug 2007
+    end: Oct 2009
+    responsibilities:
+    - Application Development for automotive domain using Java technologies    
