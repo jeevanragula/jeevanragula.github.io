@@ -51,19 +51,9 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Kubernetes - Microservices
-  url: "https://www.linkedin.com/learning/certificates/d90795af6b42722617ee09c053c04418bef01f4f80c9ef2313e45392bff9d698?trk=backfilled_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BhJg5e0M8SKOL6xtPIKv5kg%3D%3D"
+  name: Kubernetes
+  url: "#"
   badge: "https://raw.githubusercontent.com/kubernetes/kubernetes/622509830c1038535e539f7d364f5cd7c3b38791/logo/logo.png"
-
-- type: certification
-  name: Oracle Cloud Infrastructure 2023 Certified Architect Associate
-  url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=D03311B9B48EA122CDD89841E443C00D07B80FF0784CF2CC1060F39DFC926333"
-  badge: "https://brm-workforce.oracle.com/pdf/certview/images/OCI2023CAA.png"
-
-- type: certification
-  name: Oracle Cloud Infrastructure 2023 Certified DevOps Professional
-  url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=7B9C36CA4ACC528B57B87C2DC7B1A426CB996A84B8D60E082D9ABF101574B8A9"
-  badge: "https://brm-workforce.oracle.com/pdf/certview/images/OCIDOP2023OPN.png"
 
 - type: certification
   name: Neo4j Certified Professional
@@ -74,6 +64,21 @@ badges:
   name: Java
   url: "https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC4186453&trackId=SCPJSE5P&key=0afc9ee715ffcd398cfb4541d0a01c7760e2cefb"
   badge: "https://static.javatpoint.com/core/images/java-logo1.png"
+
+- type: certification
+  name: Spring
+  url: "#"
+  badge: "https://spring.io/img/og-spring.png"
+
+- type: certification
+  name: Oracle Cloud Infrastructure 2023 Certified Architect Associate
+  url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=D03311B9B48EA122CDD89841E443C00D07B80FF0784CF2CC1060F39DFC926333"
+  badge: "https://brm-workforce.oracle.com/pdf/certview/images/OCI2023CAA.png"
+
+- type: certification
+  name: Oracle Cloud Infrastructure 2023 Certified DevOps Professional
+  url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=7B9C36CA4ACC528B57B87C2DC7B1A426CB996A84B8D60E082D9ABF101574B8A9"
+  badge: "https://brm-workforce.oracle.com/pdf/certview/images/OCIDOP2023OPN.png"
 
 
 - type: soft-skill-indicator

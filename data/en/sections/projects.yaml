@@ -34,14 +34,20 @@ projects:
   role: Lead and Developer
   timeline: "Aug 2019 - Aug 2021"  
   url: https://www.skyhighsecurity.com/products/cloud-access-security-broker.html
-  summary: Skyhigh CASB provides unmatched data protection, device-based controls, and inline threat protection for all cloud applications using multi-mode cloud solution— all from a single platform.
+  summary: Skyhigh CASB is the leading Cloud Access Security Broker (CASB), a cloud-based, multi-tenant service that enables companies to embrace cloud services with appropriate levels of security and governance while lowering overall risk and cost. It acts as the first line of defense of the cloud service by providing organizations with real-time control over their data. Skyhigh Security Cloud Shadow IT provides visibility into cloud applications used in an organization that goes above and beyond what traditional Firewall and Proxy Log analytics are capable of.
   tags: ["professional", "cloud"]
 
 - name: Payment Gateway Platform
   role: Lead and Developer
   timeline: "Jul 2010 - Jul 2019"    
-  summary: A PCI DSS Certified payment gateway for Entain group. It supports more than 50 Payment methods like Credit Cards, Wallets and Bank transfer options with service providers like Kalixa and Worldpay.
+  summary: A PCI DSS Certified payment gateway for Entain group that supports seamless and secure transactions across both web and mobile applications. It supports more than 50 Payment methods like Credit Cards, Wallets and Bank transfer options with service providers like Kalixa and Worldpay. It spans multiple regions, accommodating various currencies, and diligently adheres to regulatory requirements across diverse European markets.
   tags: ["professional", "ivy"]  
+
+- name: HPE Serviceguard for Linux
+  role: Developer
+  timeline: "Nov 2009 - Jul 2010"    
+  summary: HPE Serviceguard for Linux is a high availability (HA) and disaster recovery (DR) clustering solution that increases uptime for critical applications by protecting them from a multitude of infrastructure and application faults across physical or virtual environments over any distance. The solution reduces the impact of unplanned downtime with no compromise on data integrity or performance, and it helps achieve near zero planned downtime for maintenance.
+  tags: ["professional", "hp"]  
 
 - name: Keda
   role: Contributor

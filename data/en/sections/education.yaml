@@ -14,8 +14,7 @@ degrees:
   icon: fa-graduation-cap
   timeframe: 2003-2007
   institution:
-    name: Jawaharlal Nehru Technological University, Hyderabad
-    url: "#"
+    name: Jawaharlal Nehru Technological University, Hyderabad    
   grade: #(optional)
     scale: CGPA
     achieved: 8.6
@@ -24,8 +23,7 @@ degrees:
   icon: fa-university
   timeframe: 2001-2003
   institution:
-    name: Board of Intermediate Education, Andhra Pradesh
-    url: "#"
+    name: Board of Intermediate Education, Andhra Pradesh    
   grade: #(optional)
     scale: GPA
     achieved: 9.7
@@ -34,7 +32,7 @@ degrees:
   icon: fa-school
   timeframe: 2000-2001
   institution:
-    name: Board of Secondary School Education, Andhra Pradesh
+    name: Board of Secondary School Education, Andhra Pradesh    
   grade: #(optional)
     scale: GPA
     achieved: 8.9
