@@ -16,8 +16,6 @@ buttons:
   filter: "professional"
 - name: OpenSource
   filter: "opensource"
-- name: Hobby
-  filter: "hobby"
 
 # your projects
 projects:

@@ -51,9 +51,16 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Kubernetes
-  url: "#"
+  name: Kubernetes  
   badge: "https://raw.githubusercontent.com/kubernetes/kubernetes/622509830c1038535e539f7d364f5cd7c3b38791/logo/logo.png"
+
+- type: certification
+  name: Golang  
+  badge: "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png"
+
+- type: certification
+  name: AWS 
+  badge: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
 
 - type: certification
   name: Neo4j Certified Professional
@@ -67,13 +74,16 @@ badges:
 
 - type: certification
   name: Spring
-  url: "#"
   badge: "https://spring.io/img/og-spring.png"
+
+- type: certification
+  name: Snowflake
+  badge: "https://miro.medium.com/v2/resize:fit:1088/1*L02Ojuxa39jZefsd2LkbXw.png"  
 
 - type: certification
   name: Oracle Cloud Infrastructure 2023 Certified Architect Associate
   url: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=D03311B9B48EA122CDD89841E443C00D07B80FF0784CF2CC1060F39DFC926333"
-  badge: "https://brm-workforce.oracle.com/pdf/certview/images/OCI2023CAA.png"
+  badge: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlvO9oDQ7y33lt8hNsNAcDj-2VSkT8tBvHyeX-Ym2iz04dXnHaVu5NWytABLkU2T17ayU&usqp=CAU"
 
 - type: certification
   name: Oracle Cloud Infrastructure 2023 Certified DevOps Professional

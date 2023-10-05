@@ -24,6 +24,7 @@ publications:
     url: https://swecha.org/devdays
   paper:
     summary: "Conducted an informative session on developing microservices with gRPC during the Swecha Telangana Golang Bootcamp, sharing valuable insights and hands-on experience in building efficient and high-performance microservices using this modern communication framework."
+    url: https://www.linkedin.com/posts/swechafsmi_devdayshyd-activity-7110998786184814594-E_7E
   categories: ["cloudnative"]
   tags: ["cloudnative"]
 
@@ -34,6 +35,7 @@ publications:
     url: https://community.cncf.io/hyderabad/
   paper:
     summary: "Delivered an engaging presentation with a live demonstration on Kubernetes autoscaling using KEDA at the CNCF Hyderabad meetup, showcasing my expertise in orchestrating dynamic and efficient containerized workloads."    
+    url: https://www.linkedin.com/posts/cncf-hyderabad_cncfhyderabad-cncf-meetup-activity-7099240505074450432-dDsJ
   categories: ["cloudnative"]
   tags: ["cloudnative"]
 
