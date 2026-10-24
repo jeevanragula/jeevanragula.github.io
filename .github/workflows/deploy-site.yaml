@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets and the authoritative uploaded resume PDF from jeevanragula/portfolio.
-# Product cards use concise feature bullets and verified impact metrics where available.
+# Product cards use concise feature bullets and verified impact metrics where available; no separate architecture section.
 
 on:
   push:
