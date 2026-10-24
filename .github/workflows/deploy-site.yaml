@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets and the authoritative uploaded resume PDF from jeevanragula/portfolio.
-# Publishes the latest Products/Projects split, keeps the payment gateway after ZPC, routes Explore Work to Products, and keeps the authoritative resume PDF.
+# Publishes expanded ZPC capabilities including KSPM, image scanning and vulnerability detection; keeps payment gateway after ZPC and Explore Work routed to Products.
 
 on:
   push:
