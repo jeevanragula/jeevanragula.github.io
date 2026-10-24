@@ -1,44 +1,44 @@
-name: Deploy to Github Pages
+name: Deploy portfolio to GitHub Pages
 
-# run when a commit is pushed to "source" branch
 on:
   push:
-    branches:
-    - main
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    # checkout to the commit that has been pushed
-    - uses: actions/checkout@v4
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          path: site-config
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.6.0
-      with:
-        hugo-version: 'latest'
-        extended: true
+      - name: Checkout portfolio source
+        uses: actions/checkout@v4
+        with:
+          repository: jeevanragula/portfolio
+          ref: main
+          path: portfolio-source
 
-    - name: Update Hugo Modules
-      run: hugo mod tidy
+      - name: Prepare static site
+        run: |
+          mkdir -p public/data
+          cp portfolio-source/index.html portfolio-source/index.css portfolio-source/app.js public/
+          cp portfolio-source/data/career.json portfolio-source/data/career.schema.json public/data/
+          touch public/.nojekyll
 
-    - name: Setup Node
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
-
-    - name: Install node modules
-      run: |
-        hugo mod npm pack
-        npm install
-
-    - name: Build
-      run: hugo --minify
-
-    # push the generated content into the `gh-pages` branch.
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3.9.3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: ./public
+      - name: Publish to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
+          force_orphan: true
