@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets from jeevanragula/portfolio on each deployment.
-# Updated to publish consistent social icon styling across themes.
+# Updated to publish colorful social logos with consistent contrast.
 
 on:
   push:
