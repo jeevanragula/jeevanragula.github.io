@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets and the authoritative uploaded resume PDF from jeevanragula/portfolio.
-# Publishes the data-driven portfolio and the original resume PDF without regenerating it.
+# Publishes the data-driven portfolio without CKA and the original resume PDF without regenerating it.
 
 on:
   push:
