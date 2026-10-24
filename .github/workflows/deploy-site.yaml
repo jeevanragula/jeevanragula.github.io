@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets from jeevanragula/portfolio on each deployment.
-# Updated to publish the theme contrast, social icon, and layout fixes.
+# Updated to publish final light-theme readability and LinkedIn brand mark fixes.
 
 on:
   push:
