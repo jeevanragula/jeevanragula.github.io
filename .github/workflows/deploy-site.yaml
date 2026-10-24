@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
-# Pulls the latest static assets and resume source from jeevanragula/portfolio on each deployment.
-# Publishes the current data-driven portfolio, CKAD credential, and resume PDF.
+# Pulls the latest static assets and the authoritative uploaded resume PDF from jeevanragula/portfolio.
+# Publishes the data-driven portfolio and the original resume PDF without regenerating it.
 
 on:
   push:
@@ -35,9 +35,8 @@ jobs:
           mkdir -p public/data
           cp portfolio-source/index.html portfolio-source/index.css portfolio-source/app.js public/
           cp portfolio-source/data/career.json portfolio-source/data/career.schema.json public/data/
+          cp portfolio-source/JeevanReddyRagula_Resume.pdf public/resume.pdf
           touch public/.nojekyll
-          python -m pip install reportlab
-          python portfolio-source/scripts/build_resume_pdf.py
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
