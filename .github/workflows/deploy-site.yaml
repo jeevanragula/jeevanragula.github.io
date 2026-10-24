@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets from jeevanragula/portfolio on each deployment.
-# Updated to publish colorful social logos with consistent contrast.
+# Publishes the portfolio, evidence-led skills, selected credentials, KEDA links, and generated resume PDF.
 
 on:
   push:
