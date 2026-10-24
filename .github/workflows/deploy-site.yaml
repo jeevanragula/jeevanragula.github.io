@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets and the authoritative uploaded resume PDF from jeevanragula/portfolio.
-# Publishes DSPM and AI Security case studies, verified payment impact highlights, patent links and KEDA contribution evidence.
+# Keeps architecture insights inside product cards, with compact DSPM and AI Security flows and payment impact highlights.
 
 on:
   push:
