@@ -36,6 +36,8 @@ jobs:
           cp portfolio-source/index.html portfolio-source/index.css portfolio-source/app.js public/
           cp portfolio-source/data/career.json portfolio-source/data/career.schema.json public/data/
           touch public/.nojekyll
+          python -m pip install reportlab
+          python portfolio-source/scripts/build_resume_pdf.py
 
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
