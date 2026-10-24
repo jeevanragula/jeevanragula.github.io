@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets and the authoritative uploaded resume PDF from jeevanragula/portfolio.
-# Publishes the latest Products/Projects split including WealthOS, HP Serviceguard Manager, IBM Fuel Cell Data Acquisition System, and excluding products from selected projects.
+# Publishes the latest Products/Projects split, routes Explore Work to Products, and keeps the authoritative resume PDF.
 
 on:
   push:
