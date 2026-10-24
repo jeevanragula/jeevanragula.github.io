@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets and the authoritative uploaded resume PDF from jeevanragula/portfolio.
-# Publishes the descriptive portfolio headline, current Zscaler designation, and original resume PDF.
+# Publishes the latest Products/Projects split, descriptive headline, current designation, and original resume PDF.
 
 on:
   push:
