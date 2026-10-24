@@ -1,6 +1,6 @@
 name: Deploy portfolio to GitHub Pages
 # Pulls the latest static assets and the authoritative uploaded resume PDF from jeevanragula/portfolio.
-# Publishes expanded ZPC capabilities including KSPM, image scanning and vulnerability detection; keeps payment gateway after ZPC and Explore Work routed to Products.
+# Publishes DSPM and AI Security case studies, verified payment impact highlights, patent links and KEDA contribution evidence.
 
 on:
   push:
