@@ -1,0 +1,430 @@
+{
+  "profile": {
+    "name": "Jeevan Reddy Ragula",
+    "title": "Principal Cloud-Native & AI Security Architect",
+    "company": "Zscaler",
+    "location": "Hyderabad, India",
+    "experience": "19 years",
+    "headline": "Principal Cloud-Native & AI Security Architect",
+    "description": "With 19 years of software engineering experience, I architect cloud-native security and AI security platforms. At Zscaler, my work spans AI Security, Data Security Posture Management (DSPM), and Zscaler Posture Control. I combine hands-on Go engineering with Kubernetes, multi-cloud architecture, distributed data platforms, event-driven systems, and AI-native architectures.",
+    "email": "jeevanragula@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jeevanragula/",
+    "github": "https://github.com/jeevanragula",
+    "twitter": "https://x.com/jeevanragula",
+    "portfolio": "https://jeevanragula.vercel.app/",
+    "roleHistory": [
+      {
+        "title": "Technical Architect",
+        "company": "Zscaler India Pvt Ltd",
+        "period": "Oct 2024 - Present"
+      },
+      {
+        "title": "Principal Software Engineer",
+        "company": "Zscaler India Pvt Ltd",
+        "period": "Apr 2022 - Sep 2024"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "prod-aisec",
+      "badge": "Latest Initiative · AI Security",
+      "title": "AI Security / AI Asset Management",
+      "icon": "ai",
+      "description": "Architecting an AI security and asset-management platform that inventories AI models, agents, MCP servers, workloads and AI identities across cloud and developer ecosystems. The platform brings together model intelligence, provenance and supply-chain risk signals from multiple model providers and registries.",
+      "features": [
+        "AI model, agent, MCP server and workload inventory",
+        "Model metadata, provenance and supply-chain risk intelligence",
+        "AWS, Azure, GCP, Hugging Face and Ollama sources",
+        "Go services, PostgreSQL, Kubernetes and event-driven integrations"
+      ]
+    },
+    {
+      "id": "prod-dspm",
+      "badge": "Data Security",
+      "title": "Data Security Posture Management (DSPM)",
+      "icon": "dspm",
+      "description": "Core architect and engineer for cloud-scale DSPM capabilities that discover, classify and monitor sensitive data across cloud storage and databases. Designed distributed scan execution, DLP integration and findings processing for a multi-tenant security platform.",
+      "features": [
+        "Cloud data discovery and classification",
+        "Distributed file and database scanning",
+        "DLP findings integration and results processing",
+        "Multi-tenant orchestration and scalable scan workflows"
+      ]
+    },
+    {
+      "id": "prod-zpc",
+      "badge": "Cloud Security Platform",
+      "title": "Zscaler Posture Control (ZPC)",
+      "icon": "zpc",
+      "description": "Core engineer and architect on Zscaler Posture Control (ZPC), spanning multi-cloud posture management and cloud-native workload security across AWS, Azure, GCP and Kubernetes. Capabilities include Kubernetes Security Posture Management (KSPM), container image scanning, vulnerability detection, policy evaluation, infrastructure-as-code (IaC) security and remediation workflows integrated into developer platforms.",
+      "features": [
+        "Multi-cloud inventory and posture management",
+        "Kubernetes Security Posture Management (KSPM)",
+        "Container image scanning and vulnerability detection",
+        "IaC security, policy evaluation and remediation workflows"
+      ]
+    },
+    {
+      "id": "prod-ivy",
+      "badge": "Fintech · Payments",
+      "title": "Enterprise Payment Gateway — GVC / Entain",
+      "icon": "payments",
+      "description": "Across nine years at IVY Comptech, contributed to a PCI DSS-certified payment gateway and cashier platform used across the GVC / Entain group. The system connected multiple payment providers and methods to a consistent payment experience, supporting deposits and transaction processing for a large online gaming business.",
+      "features": [
+        "Around 20 payment methods integrated through REST and SOAP",
+        "Payment gateway and cashier workflows for GVC / Entain",
+        "Cashier page load time brought to about 2 seconds",
+        "Transaction migrations and distributed caching",
+        "Security hardening, ELK logging and asynchronous alerts"
+      ]
+    }
+  ],
+  "patents": [
+    {
+      "id": "pat-1",
+      "number": "U.S. Patent 12,598,208 · Granted Apr 7, 2026",
+      "name": "Infrastructure as Code (IaC) Scanner for Component Security",
+      "description": "Granted patent for an IaC scanner that parses infrastructure files, evaluates locally executable SQL-based security policies, stores findings and provides remediation guidance before uploading results to a cloud posture platform.",
+      "url": "https://patents.justia.com/patent/12598208"
+    },
+    {
+      "id": "pat-2",
+      "number": "U.S. Patent Application 20250202926 · Published Jun 19, 2025",
+      "name": "Cloud-Based Data Security Posture Management (DSPM)",
+      "description": "Patent application covering cloud-based DSPM: discovering and classifying data across cloud services and endpoints, monitoring access and usage, evaluating misconfigurations and compliance, and enforcing security policies.",
+      "url": "https://patents.justia.com/patent/20250202926"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-cat-1",
+      "category": "Languages & Backend",
+      "items": [
+        [
+          "Go (Golang)",
+          "Production services & platform engineering",
+          0,
+          "bg-cyan"
+        ],
+        [
+          "Java / Spring",
+          "Enterprise services & payment systems",
+          0,
+          "bg-violet"
+        ],
+        [
+          "JavaScript / Angular",
+          "Web tooling & frontend integrations",
+          0,
+          "bg-green"
+        ],
+        [
+          "Microservices & API Design",
+          "Distributed service architecture",
+          0,
+          "bg-cyan"
+        ]
+      ]
+    },
+    {
+      "id": "skill-cat-2",
+      "category": "Cloud & Platform Engineering",
+      "items": [
+        [
+          "Kubernetes / EKS",
+          "Cloud-native platforms & operators",
+          0,
+          "bg-cyan"
+        ],
+        [
+          "AWS",
+          "Multi-cloud security & telemetry",
+          0,
+          "bg-violet"
+        ],
+        [
+          "Azure / GCP / OCI",
+          "Multi-cloud integrations",
+          0,
+          "bg-green"
+        ],
+        [
+          "Docker / Helm / Kustomize",
+          "Kubernetes delivery & operations",
+          0,
+          "bg-cyan"
+        ],
+        [
+          "FluxCD / GitOps / CI/CD",
+          "Deployment automation & release workflows",
+          0,
+          "bg-violet"
+        ]
+      ]
+    },
+    {
+      "id": "skill-cat-3",
+      "category": "Data & Distributed Systems",
+      "items": [
+        [
+          "Kafka / Event Streaming",
+          "Event-driven processing",
+          0,
+          "bg-cyan"
+        ],
+        [
+          "PostgreSQL / Oracle / MySQL",
+          "Transactional & metadata stores",
+          0,
+          "bg-violet"
+        ],
+        [
+          "MongoDB / ClickHouse / Redis",
+          "Document, analytics & cache layers",
+          0,
+          "bg-green"
+        ],
+        [
+          "Snowflake / Databricks / Spark",
+          "Distributed data processing",
+          0,
+          "bg-cyan"
+        ],
+        [
+          "Iceberg / Delta Lake / Trino",
+          "Lakehouse & query ecosystems",
+          0,
+          "bg-violet"
+        ]
+      ]
+    },
+    {
+      "id": "skill-cat-4",
+      "category": "Security & AI Platforms",
+      "items": [
+        [
+          "CNAPP / CSPM / DSPM",
+          "Cloud & data security products",
+          0,
+          "bg-cyan"
+        ],
+        [
+          "IaC Security / Policy Engines",
+          "Policy evaluation & scanner design",
+          0,
+          "bg-violet"
+        ],
+        [
+          "DLP / CloudTrail / Security Telemetry",
+          "Detection pipelines & findings",
+          0,
+          "bg-green"
+        ],
+        [
+          "AI Asset & Model Intelligence",
+          "Model, agent & MCP inventory",
+          0,
+          "bg-cyan"
+        ],
+        [
+          "Model Supply-Chain Risk / MCP Ecosystems",
+          "Provenance & risk signals",
+          0,
+          "bg-violet"
+        ]
+      ]
+    }
+  ],
+  "career": [
+    [
+      "time-item-1",
+      "Oct 2024 - Present",
+      "Technical Architect",
+      "Zscaler India Pvt Ltd",
+      "Architecting cloud security and AI security platforms including ZPC, DSPM and AI security initiatives. Focus areas include Go microservices, Kubernetes, multi-cloud security, distributed data platforms and AI-native architectures."
+    ],
+    [
+      "time-item-2",
+      "Apr 2022 - Sep 2024",
+      "Principal Software Engineer",
+      "Zscaler India Pvt Ltd",
+      "Core engineer and technical leader across cloud security products. Resume highlights architecture for IaC and container security, cross-functional engineering, Kafka and CI/CD integrations, threat detection and compliance checks, and scalable infrastructure security."
+    ],
+    [
+      "time-item-3",
+      "Aug 2021 - Mar 2022",
+      "Senior Staff Engineer",
+      "Zscaler India Pvt Ltd",
+      "Architected and built cloud security product capabilities for IaC and container security, with emphasis on scalable, fault-tolerant cloud-native services. (The uploaded resume lists this period within the broader Zscaler role beginning Aug 2021.)"
+    ],
+    [
+      "time-item-4",
+      "Aug 2019 - Aug 2021",
+      "Senior Staff Engineer",
+      "McAfee India Pvt Ltd",
+      "Built a real-time log collection service using AWS S3, Elastic Beanstalk and Kafka with Auto Scaling Groups; integrated Spring Boot services with Prometheus, Grafana and Spring Actuator; enabled FIPS support for FedRAMP High; worked on Cloud Connector configuration and customer health notifications."
+    ],
+    [
+      "time-item-5",
+      "Jul 2010 - Jul 2019",
+      "Lead - Software Development",
+      "IVY Software Development Services Pvt Ltd",
+      "Designed and built a PCI DSS-certified payment gateway for GVC using Spring, Apache CXF, Tomcat and Oracle. Integrated around 20 payment methods via REST/SOAP; improved cashier page load to about two seconds; implemented ELK logging, Quick Deposit, large transaction migrations, distributed caching, live chat and asynchronous email/SMS alerts; addressed XSS and CSRF risks."
+    ],
+    [
+      "time-item-6",
+      "Nov 2009 - Jul 2010",
+      "Software Engineer",
+      "HP India Software Operations Pvt Ltd",
+      "Worked on Serviceguard Manager, a GUI for configuring, monitoring and administering Serviceguard, Serviceguard Extension for RAC, Metrocluster and Continentalclusters. Developed backend and frontend features using Java and JavaScript."
+    ],
+    [
+      "time-item-7",
+      "Aug 2007 - Nov 2009",
+      "Application Developer",
+      "IBM India Pvt Ltd",
+      "Worked on the Fuel Cell Data Acquisition System for Daimler AG, securely transferring data from data recorders to local file servers and central data management. Developed shell scripts and Java/Struts/DB2 features deployed on WebSphere."
+    ],
+    [
+      "time-item-8",
+      "2003 - 2007",
+      "B.Tech, Electronics & Communication Engineering",
+      "JNTU Hyderabad",
+      "Bachelor of Technology in Electronics & Communication Engineering, Jawaharlal Nehru Technological University, Hyderabad."
+    ]
+  ],
+  "openSource": {
+    "keda": {
+      "name": "KEDA",
+      "url": "https://github.com/kedacore/keda",
+      "description": "Contributor to Kubernetes Event-Driven Autoscaling (KEDA), an open-source project for event-driven workload autoscaling on Kubernetes."
+    }
+  },
+  "contact": {
+    "title": "Lets discuss",
+    "subtitle": "I am always open to discussing new technology stacks, speaking arrangements at meetups, or architecture inquiries.",
+    "location": "Hyderabad, India"
+  },
+  "terminal": {
+    "commands": {
+      "help": "Available: help, whoami, bio, skills, products, projects, experience, patents, certifications, education, resume, github, linkedin, contact, ls, clear",
+      "bio": "Jeevan Reddy Ragula — Technical Architect at Zscaler. Cloud security, distributed systems, Kubernetes, Go and AI security.",
+      "skills": "Go · Kubernetes · AWS · Azure · GCP · Kafka · PostgreSQL · MongoDB · ClickHouse · Spark · Databricks",
+      "products": "AI Security / AI Asset Management · DSPM · Zscaler Posture Control",
+      "patents": "U.S. Patent 12,598,208 · Pub. No. 20250202926",
+      "contact": "Hyderabad, India · LinkedIn: linkedin.com/in/jeevanragula",
+      "whoami": "Jeevan Reddy Ragula — Technical Architect @ Zscaler",
+      "github": "https://github.com/jeevanragula",
+      "linkedin": "https://www.linkedin.com/in/jeevanragula/",
+      "resume": "Download the current resume PDF: https://jeevanragula.github.io/resume.pdf",
+      "projects": "Use projects to explore Manvasa, WealthOS, Cloud Connector & Security Telemetry, Serviceguard Manager, and the Fuel Cell Data Acquisition System.",
+      "experience": "Use experience to browse the full career timeline.",
+      "certifications": "CKAD · KCNA · KCSA · Oracle Cloud Infrastructure DevOps Professional · Oracle Cloud Infrastructure Architect Associate",
+      "education": "B.Tech, Electronics & Communication Engineering — JNTU Hyderabad (2003–2007)."
+    }
+  },
+  "certifications": [
+    {
+      "name": "Certified Kubernetes Application Developer (CKAD)",
+      "issuer": "The Linux Foundation / CNCF",
+      "year": "",
+      "url": "https://www.credly.com/earner/earned/badge/00674d8b-c590-4e8c-8727-28b2913d73c7"
+    },
+    {
+      "name": "Kubernetes and Cloud Native Associate (KCNA)",
+      "issuer": "The Linux Foundation / CNCF",
+      "year": "",
+      "url": "https://www.credly.com/badges/2b9a0b24-ad9e-4423-b778-4e1ad424b4cd/public_url"
+    },
+    {
+      "name": "Kubernetes and Cloud Native Security Associate (KCSA)",
+      "issuer": "The Linux Foundation / CNCF",
+      "year": "",
+      "url": "https://www.credly.com/badges/fba674c1-2020-49ca-adee-2990e6f7590a"
+    },
+    {
+      "name": "Oracle Cloud Infrastructure Certified DevOps Professional",
+      "issuer": "Oracle",
+      "year": "2023"
+    },
+    {
+      "name": "Oracle Cloud Infrastructure Certified Architect Associate",
+      "issuer": "Oracle",
+      "year": "2023"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-manvasa",
+      "company": "Independent Product",
+      "period": "Current · In development",
+      "title": "Manvasa — Apartment Community Management SaaS",
+      "description": "Built a mobile-first, multi-tenant SaaS platform for small apartment communities, covering apartment and resident management, maintenance collections and reconciliation, expenses, notices and polls, private documents, vendors, staff, parking, visitors, and security workflows. Designed tenant-scoped authorization, PostgreSQL Row-Level Security, service boundaries, auditability, and commercial SaaS onboarding and billing.",
+      "tags": [
+        "Next.js",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "RLS",
+        "Playwright"
+      ],
+      "url": "https://github.com/jeevanragula/manvasa"
+    },
+    {
+      "id": "project-wealthos",
+      "company": "Independent Product",
+      "period": "Current · In development",
+      "title": "WealthOS — Investment Intelligence Cockpit",
+      "description": "Building a local-first investment intelligence platform that combines normalized stock and mutual-fund holdings, deterministic portfolio and risk analytics, current market and research evidence, investor constraints, and specialist AI agents into an auditable decision-support workflow. Integrates broker and import paths for Kite MCP, Kite Connect, Groww, and US broker statements; uses Ollama with Gemini escalation. WealthOS supports research and decision-making and does not place trades.",
+      "tags": [
+        "Go",
+        "Next.js",
+        "PostgreSQL",
+        "AI Agents",
+        "MCP",
+        "Portfolio Analytics"
+      ]
+    },
+    {
+      "id": "project-mcafee",
+      "company": "McAfee",
+      "period": "2019–2021",
+      "title": "Cloud Connector & Security Telemetry",
+      "description": "Built real-time log collection and cloud connector capabilities using AWS S3 and Kafka, with observability integrations and FIPS-related support for regulated environments.",
+      "tags": [
+        "AWS",
+        "Kafka",
+        "Spring Boot",
+        "Prometheus"
+      ]
+    },
+    {
+      "id": "project-hp-serviceguard",
+      "company": "HP India Software Operations",
+      "period": "2009–2010",
+      "title": "Serviceguard Manager",
+      "description": "Developed backend and frontend capabilities for Serviceguard Manager, a GUI used to configure, monitor and administer Serviceguard, Serviceguard Extension for RAC, Metrocluster and Continentalclusters.",
+      "tags": [
+        "Java",
+        "JavaScript",
+        "Enterprise Management",
+        "High Availability"
+      ]
+    },
+    {
+      "id": "project-ibm-fuel-cell",
+      "company": "IBM · Daimler AG",
+      "period": "2007–2009",
+      "title": "Fuel Cell Data Acquisition System",
+      "description": "Contributed to a system that securely transferred data from fuel-cell data recorders to local file servers and central data management. Developed shell scripts and Java/Struts/DB2 features deployed on WebSphere.",
+      "tags": [
+        "Java",
+        "Struts",
+        "DB2",
+        "WebSphere",
+        "Shell Scripting"
+      ]
+    }
+  ]
+}
