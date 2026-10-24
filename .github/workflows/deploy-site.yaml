@@ -1,4 +1,5 @@
 name: Deploy portfolio to GitHub Pages
+# Pulls the latest static assets from jeevanragula/portfolio on each deployment.
 
 on:
   push:
